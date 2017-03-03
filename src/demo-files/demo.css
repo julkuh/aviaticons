@@ -1,0 +1,103 @@
+ section,
+ header,
+ footer {
+     display: block;
+ }
+ body {
+     font-family: sans-serif;
+     color: #444;
+     line-height: 1.5;
+     font-size: 1em;
+ }
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ section {
+     margin-top: 100px;
+ }
+ section:first-child {
+     margin-top: 10px;
+ }
+ .glyph {
+     text-shadow: 1px 3px 4px #def, 0 0 0 #000, 1px 2px 4px #def;
+     color: rgba(10, 60, 150, 0.8);
+     font-size: 21px;
+     float: left;
+     text-align: center;
+     background: #eee;
+     padding: .75em;
+     margin: .75em 1.5em .75em 0;
+     width: 7.5em;
+     border-radius: .25em;
+     box-shadow: inset 0 0 0 1px #f8f8f8, 0 0 0 1px #CCC;
+ }
+ .glyph div {
+     -moz-transition: all .5s ease;
+     -o-transition: all .5s ease;
+     -webkit-transition: all .5s ease;
+     -ms-transition: all .5s ease;
+     transition: all .5s ease;
+ }
+ .glyph:hover div {
+     color: #444;
+     text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25);
+ }
+ .glyph input {
+     font-family: consolas, monospace;
+     font-size: 13px;
+     width: 100%;
+     text-align: center;
+     border: 0;
+     box-shadow: 0 0 0 1px #ccc;
+     padding: .125em;
+ }
+ .w-main {
+     width: 80%;
+ }
+ .centered {
+     margin-left: auto;
+     margin-right: auto;
+ }
+ header {
+     margin: 1em 0;
+     padding-bottom: .5em;
+     color: #666;
+     box-shadow: 0 2px #eee;
+ }
+ header h1 {
+     font-size: 2em;
+     font-weight: normal;
+ }
+ .clearfix:before,
+ .clearfix:after {
+     content: "";
+     display: table;
+ }
+ .clearfix:after,
+ .clear {
+     clear: both;
+ }
+ footer {
+     margin-top: 2em;
+     padding: .5em 0;
+     box-shadow: 0 -2px #eee;
+ }
+ a,
+ a:visited {
+     color: #B35047;
+     text-decoration: none;
+ }
+ a:hover,
+ a:focus {
+     color: #000;
+ }
+ .box1 {
+     font-size: 21px;
+     display: inline-block;
+     width: 15em;
+     padding: .25em .5em;
+     background: #eee;
+     margin: .5em 1em .5em 0;
+ }
