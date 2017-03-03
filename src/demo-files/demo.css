@@ -21,17 +21,21 @@
      margin-top: 10px;
  }
  .glyph {
-     text-shadow: 1px 3px 4px #def, 0 0 0 #000, 1px 2px 4px #def;
-     color: rgba(10, 60, 150, 0.8);
-     font-size: 21px;
+     border-radius: 5px;
+     background-color: #fff;
+     border: 1px solid #fff;
+     transition: background .2s ease-in;
+     color: #3c3c3c;
+     font-size: 35px;
      float: left;
      text-align: center;
-     background: #eee;
-     padding: .75em;
-     margin: .75em 1.5em .75em 0;
-     width: 7.5em;
-     border-radius: .25em;
-     box-shadow: inset 0 0 0 1px #f8f8f8, 0 0 0 1px #CCC;
+     padding: .25em;
+     margin: .35em .75em .35em 0;
+     width: 5em;
+ }
+ .glyph:hover {
+     background-color: #f8f8f8;
+     border: 1px solid #efefef;
  }
  .glyph div {
      -moz-transition: all .5s ease;
@@ -42,7 +46,7 @@
  }
  .glyph:hover div {
      color: #444;
-     text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25);
+     /*text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25);*/
  }
  .glyph input {
      font-family: consolas, monospace;

@@ -38,4 +38,16 @@
 .ai-atc-tower:before {
         content: "\EA01"
     }
+    .ai-vor:before {
+        content: "\EA02"
+    }
+    .ai-vordme:before {
+        content: "\EA03"
+    }
+    .ai-vortac:before {
+        content: "\EA04"
+    }
+    .ai-windsock:before {
+        content: "\EA05"
+    }
     

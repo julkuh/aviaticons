@@ -9,7 +9,8 @@ var consolidate = require('gulp-consolidate');
 gulp.task('IconFont', function (done) {
     var iconStream = gulp.src(['src/svg/*.svg'])
         .pipe(iconfont({
-            fontName: 'aviaticons'
+            fontName: 'aviaticons',
+            formats: ['svg', 'ttf', 'eot', 'woff', 'woff2']
         }));
 
     async.parallel([
