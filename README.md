@@ -1,4 +1,4 @@
-# aviaticons webfont
+# :airplane: aviaticons webfont :helicopter:
 
 Aviaticons is going to be a webfont dedicated to all aviation-lovers and those who develop applications or websites for those who love aviation.
 
