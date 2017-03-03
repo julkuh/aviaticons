@@ -7,6 +7,9 @@ Aviaticons is going to be a webfont dedicated to all aviation-lovers and those w
 ## How to use
 [tbd]
 
+## Requesting icons
+If you have an idea for an icon that you think should be part of [aviaticons](https://github.com/julkuh/aviaticons) just let us know via the [Github Issues](https://github.com/julkuh/aviaticons/issues).
+
 ## Contributing
 Contribution is very welcome. The more icons we have, the more usefull the webfont will be ;)
 General rules for pull requests:
