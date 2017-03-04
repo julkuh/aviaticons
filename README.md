@@ -17,3 +17,6 @@ General rules for pull requests:
 * the icons should depict objects from aviation (this includes aircrafts, airport buildings, weather and aviation-map symbology)
 * make your pull-request just in `.src/svg/`
 Many thanks for contributing.
+
+## Known Issues
+Currently the glyphs of the font aren't shown in their full beauty
