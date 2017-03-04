@@ -6,7 +6,7 @@ var iconfont = require('gulp-iconfont');
 var consolidate = require('gulp-consolidate');
 
 // Build the WebFont and copy it to dist Folder including the css needed.
-gulp.task('IconFont', function (done) {
+gulp.task('BuildFont', function (done) {
     var iconStream = gulp.src(['src/svg/*.svg'])
         .pipe(iconfont({
             fontName: 'aviaticons',
@@ -46,8 +46,13 @@ gulp.task('clean', function () {
     return del(['dist/**/*']);
 });
 
+gulp.task('watch', function () {
+    gulp.watch(['./src/demo.html', './src/demo-files/**/*'], ['BuildDemo']);
+    gulp.watch(['./src/demo.html', './src/demo-files/**/*'], ['BuildFont']);
+});
 
 gulp.task('build', function (cb) {
-    runsequence('clean', 'IconFont', 'BuildDemo', cb);
-
+    runsequence('clean', 'BuildFont', 'BuildDemo', cb);
 });
+
+gulp.task('default', ['build', 'watch']);
