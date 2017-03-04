@@ -47,8 +47,8 @@ gulp.task('clean', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch(['./src/demo.html', './src/demo-files/**/*'], ['BuildDemo']);
-    gulp.watch(['./src/demo.html', './src/demo-files/**/*'], ['BuildFont']);
+    gulp.watch(['./src/demo.html', './src/demo-files/demo.css'], ['BuildDemo']);
+    gulp.watch(['./src/svg/**/*'], ['BuildFont']);
 });
 
 gulp.task('build', function (cb) {

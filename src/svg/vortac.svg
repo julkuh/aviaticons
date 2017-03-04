@@ -1,11 +1,1 @@
-<?xml version="1.0" standalone="no"?>
-<!-- Generator: Adobe Fireworks 10, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg id="Untitled-Page%201" viewBox="0 0 45 45" style="background-color:#ffffff00" version="1.1"
-	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
-	x="0px" y="0px" width="45px" height="45px"
->
-	<g id="Layer%201">
-		<path id="vortac" d="M 15 6 L 11.4375 3 L 0.5 16 L 5.375 19.375 L 14.7383 36.7031 L 14.7383 42 L 30.3586 42 L 30.3586 36.7031 L 40.8139 19.5 L 45 16.1719 L 35.5625 2.9375 L 31.7534 6 L 15 6 ZM 17.4273 9.0284 L 28.0667 9.0284 L 36.9128 20.7571 L 30 31.6875 L 14.9774 31.6875 L 8.86 20.7571 L 17.4273 9.0284 ZM 22.8381 18.6289 C 21.668 18.6289 20.7176 19.6185 20.7176 20.8391 C 20.7176 22.0586 21.668 23.0493 22.8381 23.0493 C 24.0091 23.0493 24.9585 22.0586 24.9585 20.8391 C 24.9585 19.6185 24.0091 18.6289 22.8381 18.6289 L 22.8381 18.6289 ZM 22.8381 18.6289 L 22.8381 18.6289 Z" fill="#333333"/>
-	</g>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><path d="M30.843,41.91L14.291,41.91L14.225,35.181L5.957,20.861L0.139,17.425L8.414,3.09L14.225,6.513L30.776,6.513L36.585,3.107L44.861,17.441L39.036,20.875L30.777,35.18L30.843,41.91ZM29.021,9.554L15.981,9.554L9.46,20.847L15.981,32.14L29.021,32.14L35.541,20.847L29.021,9.554ZM22.513,19.021C21.367,19.021 20.437,19.99 20.437,21.185C20.437,22.38 21.367,23.35 22.513,23.35C23.66,23.35 24.59,22.38 24.59,21.185C24.59,19.99 23.66,19.021 22.513,19.021Z" style="fill:#333;"/></svg>
