@@ -44,16 +44,25 @@
     .ai-ndb:before {
         content: "\EA03"
     }
-    .ai-vor:before {
+    .ai-propeller-four-blade:before {
         content: "\EA04"
     }
-    .ai-vordme:before {
+    .ai-propeller-three-blade:before {
         content: "\EA05"
     }
-    .ai-vortac:before {
+    .ai-propeller-two-blade:before {
         content: "\EA06"
     }
-    .ai-windsock:before {
+    .ai-vor:before {
         content: "\EA07"
+    }
+    .ai-vordme:before {
+        content: "\EA08"
+    }
+    .ai-vortac:before {
+        content: "\EA09"
+    }
+    .ai-windsock:before {
+        content: "\EA0A"
     }
     
