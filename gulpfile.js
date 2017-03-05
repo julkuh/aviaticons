@@ -10,7 +10,7 @@ gulp.task('BuildFont', function (done) {
     var iconStream = gulp.src(['src/svg/*.svg'])
         .pipe(iconfont({
             fontName: 'aviaticons',
-            formats: ['svg', 'ttf', 'eot', 'woff', 'woff2']
+            formats: ['svg', 'ttf', 'eot', 'woff']
         }));
 
     async.parallel([
