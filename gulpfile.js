@@ -17,7 +17,9 @@ gulp.task('BuildFont', function (done) {
     var iconStream = gulp.src(['src/svg/*.svg'])
         .pipe(iconfont({
             fontName: config.fontName,
-            formats: config.formats
+            formats: config.formats,
+            fontHeight: 1000,
+            normalize: true
         }));
 
     async.parallel([

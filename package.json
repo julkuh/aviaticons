@@ -7,9 +7,6 @@
         "url": "https://github.com/julkuh/aviaticons"
     },
     "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
     "author": "Julian Kuhlmann",
     "license": "MIT License",
     "devDependencies": {
