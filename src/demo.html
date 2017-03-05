@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <title>Aviaticons IconFont Gallery</title>
+    <title>
+        <%=fontName %> IconFont Gallery</title>
     <link rel="stylesheet" href="./aviaticons/font/aviaticons.css" />
     <link rel="stylesheet" href="demo-files/demo.css" />
 </head>
@@ -11,51 +12,19 @@
     <div class="w-main centered">
         <section class="mtm clearfix">
             <header>
-                <h1>aviaticons webfont </h1>
+                <h1><%=fontName %> webfont </h1>
                 <p></p>
             </header>
 
             <h5>Overview</h5>
-            <div class="glyph aviaticon">
-                <div class="ai ai-atc-tower"></div>
-                <input type="text" readonly="readonly" value="class: ai-atc-tower" />
-            </div>
-            <div class="glyph aviaticon">
-                <div class="ai ai-windsock"></div>
-                <input type="text" readonly="readonly" value="class: ai-windsock" />
-            </div>
-            <div class="glyph aviaticon">
-                <div class="ai ai-vor"></div>
-                <input type="text" readonly="readonly" value="class: ai-vor" />
-            </div>
-            <div class="glyph aviaticon">
-                <div class="ai ai-vordme"></div>
-                <input type="text" readonly="readonly" value="class: ai-vordme" />
-            </div>
-            <div class="glyph aviaticon">
-                <div class="ai ai-vortac"></div>
-                <input type="text" readonly="readonly" value="class: ai-vortac" />
-            </div>
-            <div class="glyph aviaticon">
-                <div class="ai ai-ndb"></div>
-                <input type="text" readonly="readonly" value="class: ai-ndb" />
-            </div>
-            <div class="glyph aviaticon">
-                <div class="ai ai-c172-l"></div>
-                <input type="text" readonly="readonly" value="class: ai-c172-l" />
-            </div>
-            <div class="glyph aviaticon">
-                <div class="ai ai-propeller-two-blade"></div>
-                <input type="text" readonly="readonly" value="class: ai-propeller-two-blade" />
-            </div>
-            <div class="glyph aviaticon">
-                <div class="ai ai-propeller-three-blade"></div>
-                <input type="text" readonly="readonly" value="class: ai-propeller-three-blade" />
-            </div>
-            <div class="glyph aviaticon">
-                <div class="ai ai-propeller-four-blade"></div>
-                <input type="text" readonly="readonly" value="class: ai-propeller-four-blade" />
-            </div>
+
+            <% _.each(glyphs, function(glyph) { %>
+                <div class="glyph <%=fontName %> ">
+                    <div class="ai <%=className %>-<%=glyph.name %> "></div>
+                    <input type="text" readonly="readonly" value="class: <%=className %>-<%=glyph.name %>" />
+                </div>
+                <% }); %>
+
         </section>
 
     </div>
