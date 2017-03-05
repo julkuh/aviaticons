@@ -43,34 +43,40 @@
     text-align: center;
 }
 
-.ai-atc-tower:before {
+.ai-ask21-l:before {
         content: "\EA01";
     }
-    .ai-c172-l:before {
+    .ai-atc-tower:before {
         content: "\EA02";
     }
-    .ai-ndb:before {
+    .ai-c172-l:before {
         content: "\EA03";
     }
-    .ai-propeller-four-blade:before {
+    .ai-nav-ndb:before {
         content: "\EA04";
     }
-    .ai-propeller-three-blade:before {
+    .ai-nav-vor:before {
         content: "\EA05";
     }
-    .ai-propeller-two-blade:before {
+    .ai-nav-vordme:before {
         content: "\EA06";
     }
-    .ai-vor:before {
+    .ai-nav-vortac:before {
         content: "\EA07";
     }
-    .ai-vordme:before {
+    .ai-propeller-four-blade:before {
         content: "\EA08";
     }
-    .ai-vortac:before {
+    .ai-propeller-three-blade:before {
         content: "\EA09";
     }
-    .ai-windsock:before {
+    .ai-propeller-two-blade:before {
         content: "\EA0A";
+    }
+    .ai-sunglasses:before {
+        content: "\EA0B";
+    }
+    .ai-windsock:before {
+        content: "\EA0C";
     }
     
