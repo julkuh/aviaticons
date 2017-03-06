@@ -5,7 +5,10 @@ Aviaticons is going to be a webfont dedicated to all aviation-lovers and those w
 **In Short:** A webfont suite containing aviation related, vector based, easy to use icons. 
 
 ## How to use
-[tbd]
+Either download a release from [aviaticon Releases](https://github.com/julkuh/aviaticons/releases) or use bower:
+```
+$ bower install aviaticons
+```
 
 ## Requesting icons
 If you have an idea for an icon that you think should be part of [aviaticons](https://github.com/julkuh/aviaticons) just let us know via the [Github Issues](https://github.com/julkuh/aviaticons/issues).
