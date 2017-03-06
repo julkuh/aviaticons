@@ -34,7 +34,7 @@ gulp.task('BuildFont', function (done) {
 
                 gulp.src('src/css/aviaticons.css')
                     .pipe(consolidate('lodash', replacementOptions))
-                    .pipe(gulp.dest('dist/aviaticons/font/'));
+                    .pipe(gulp.dest('dist/aviaticons/'));
 
                 gulp.src('src/demo.html')
                     .pipe(consolidate('lodash', replacementOptions))
@@ -45,7 +45,7 @@ gulp.task('BuildFont', function (done) {
 
     function handleFonts(cb) {
             iconStream
-                .pipe(gulp.dest('dist/aviaticons/font/'))
+                .pipe(gulp.dest('dist/aviaticons/'))
                 .on('finish', cb);
     }
   ], done);
