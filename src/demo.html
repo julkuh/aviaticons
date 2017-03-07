@@ -11,22 +11,40 @@
 
 <body>
     <div class="w-main centered">
-        <section class="mtm clearfix">
-            <header>
-                <h1><%=fontName %> webfont </h1>
-            </header>
+        <header>
+            <h1><%=fontName %> webfont </h1>
+        </header>
 
-            <h5>Overview</h5>
+        <main class="clearfix">
+            <section>
+                <h3>What?</h3>
+                <p>
+                    Aviaticons isa webfont dedicated to all aviation-lovers and those who develop applications or websites for those who love aviation.
+                </p>
+            </section>
+            
+            <section>
+                <h3>How to use?</h3>
+                <p>
+                    <code>$ bower install aviaticons</code>
+                </p>
+            </section>
 
-            <% _.each(glyphs, function(glyph) { %>
-                <div class="glyph <%=fontName %> ">
-                    <div class="ai <%=className %>-<%=glyph.name %> "></div>
-                    <input type="text" readonly="readonly" value="class: <%=className %>-<%=glyph.name %>" />
-                </div>
-                <% }); %>
+            <section>
+                <h3>Available Icons</h3>
 
-        </section>
+                <% _.each(glyphs, function(glyph) { %>
+                    <div class="glyph <%=fontName %> ">
+                        <div class="ai <%=className %>-<%=glyph.name %> "></div>
+                        <input type="text" readonly="readonly" value="class: <%=className %>-<%=glyph.name %>" />
+                    </div>
+                    <% }); %>
 
+            </section>
+        </main>
+        <footer>
+            <a href="https://github.com/julkuh/aviaticons" target="_blank">@Github</a>
+        </footer>
     </div>
 </body>
 
