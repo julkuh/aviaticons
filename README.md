@@ -1,4 +1,4 @@
-# :airplane: aviaticons webfont :helicopter:
+# :airplane: [aviaticons webfont](https://julkuh.github.io/aviaticons/) :helicopter:
 
 Aviaticons is going to be a webfont dedicated to all aviation-lovers and those who develop applications or websites for those who love aviation. You can have a look in the [TODO-List](./TODO.md) if you are interrested.
 
