@@ -71,4 +71,6 @@ gulp.task('build', function (cb) {
     runsequence('clean', 'BuildFont', 'BuildDemo', cb);
 });
 
+//TODO: add task that produces a minified version of css
+
 gulp.task('default', ['build', 'watch']);
