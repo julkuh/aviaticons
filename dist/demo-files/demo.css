@@ -39,6 +39,13 @@ code {
     padding: .2em .4em;
 }
 
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+
 .w-main {
     display: flex;
     flex-direction: column;

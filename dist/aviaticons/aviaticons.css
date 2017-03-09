@@ -82,10 +82,13 @@
     .ai-sunglasses:before {
         content: "\EA0D";
     }
-    .ai-windsock:before {
+    .ai-test:before {
         content: "\EA0E";
     }
-    .ai-yoke:before {
+    .ai-windsock:before {
         content: "\EA0F";
+    }
+    .ai-yoke:before {
+        content: "\EA10";
     }
     

@@ -4,6 +4,10 @@ var runsequence = require('run-sequence');
 var del = require('del');
 var iconfont = require('gulp-iconfont');
 var consolidate = require('gulp-consolidate');
+var fs = require('fs');
+
+
+var package = JSON.parse(fs.readFileSync('./package.json'))
 
 // Global Config
 var config = {
@@ -29,7 +33,8 @@ gulp.task('BuildFont', function (done) {
                     glyphs: glyphs,
                     fontPath: './',
                     fontName: config.fontName,
-                    className: config.cssClassPrefix
+                    className: config.cssClassPrefix,
+                    version: package.version
                 };
 
                 gulp.src('src/css/aviaticons.css')
