@@ -49,46 +49,49 @@
     .ai-atc-tower:before {
         content: "\EA02";
     }
-    .ai-c172-l:before {
+    .ai-boarding-pass:before {
         content: "\EA03";
     }
-    .ai-headset:before {
+    .ai-c172-l:before {
         content: "\EA04";
     }
-    .ai-nav-ndb:before {
+    .ai-headset:before {
         content: "\EA05";
     }
-    .ai-nav-vor:before {
+    .ai-nav-ndb:before {
         content: "\EA06";
     }
-    .ai-nav-vordme:before {
+    .ai-nav-vor:before {
         content: "\EA07";
     }
-    .ai-nav-vortac:before {
+    .ai-nav-vordme:before {
         content: "\EA08";
     }
-    .ai-propeller-four-blade:before {
+    .ai-nav-vortac:before {
         content: "\EA09";
     }
-    .ai-propeller-three-blade:before {
+    .ai-pilot-hat:before {
         content: "\EA0A";
     }
-    .ai-propeller-two-blade:before {
+    .ai-propeller-four-blade:before {
         content: "\EA0B";
     }
-    .ai-sidestick:before {
+    .ai-propeller-three-blade:before {
         content: "\EA0C";
     }
-    .ai-sunglasses:before {
+    .ai-propeller-two-blade:before {
         content: "\EA0D";
     }
-    .ai-test:before {
+    .ai-sidestick:before {
         content: "\EA0E";
     }
-    .ai-windsock:before {
+    .ai-sunglasses:before {
         content: "\EA0F";
     }
-    .ai-yoke:before {
+    .ai-windsock:before {
         content: "\EA10";
+    }
+    .ai-yoke:before {
+        content: "\EA11";
     }
     
