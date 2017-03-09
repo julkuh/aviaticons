@@ -27,7 +27,14 @@ gulp.task('BuildFont', function (done) {
             normalize: true
         }));
 
-    async.parallel([
+    async.parallel([     
+        // Build the font-files
+    function handleFonts(cb) {
+            iconStream
+                .pipe(gulp.dest('dist/aviaticons/'))
+                .on('finish', cb);
+    },
+    // Build the html and css
     function handleGlyphs(cb) {
             iconStream.on('glyphs', function (glyphs, options) {
                 var replacementOptions = {
@@ -37,7 +44,7 @@ gulp.task('BuildFont', function (done) {
                     className: config.cssClassPrefix,
                     version: package.version
                 };
-
+                
                 gulp.src('src/css/aviaticons.css')
                     .pipe(consolidate('lodash', replacementOptions))
                     .pipe(gulp.dest('dist/aviaticons/'));
@@ -47,12 +54,6 @@ gulp.task('BuildFont', function (done) {
                     .pipe(gulp.dest('dist/'))
                     .on('finish', cb);
             });
-    },
-
-    function handleFonts(cb) {
-            iconStream
-                .pipe(gulp.dest('dist/aviaticons/'))
-                .on('finish', cb);
     }
   ], done);
 });
