@@ -4,9 +4,10 @@ var runsequence = require('run-sequence');
 var del = require('del');
 var iconfont = require('gulp-iconfont');
 var consolidate = require('gulp-consolidate');
+var cleanCSS = require('gulp-clean-css');
 var fs = require('fs');
 
-
+// read package.json and make properties available
 var package = JSON.parse(fs.readFileSync('./package.json'))
 
 // Global Config
@@ -58,7 +59,10 @@ gulp.task('BuildFont', function (done) {
 
 // Copy all demo related files into Dist
 gulp.task('BuildDemo', function () {
-    gulp.src(['./src/demo-files/**/*'])
+    gulp.src(['./src/demo-files/**/*', '!./src/demo-files/**/*.css'])
+        .pipe(gulp.dest('./dist/demo-files'));
+    gulp.src(['./src/demo-files/**/*.css'])
+        .pipe(cleanCSS())
         .pipe(gulp.dest('./dist/demo-files'));
 });
 

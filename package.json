@@ -1,21 +1,22 @@
 {
-    "name": "aviaticons",
-    "version": "0.1.5",
-    "description": "Aviaticons is a webfont dedicated to all aviation-lovers and those who develop applications or websites for those who love aviation.",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/julkuh/aviaticons"
-    },
-    "main": "index.js",
-    "author": "Julian Kuhlmann",
-    "license": "MIT License",
-    "devDependencies": {
-        "gulp": "^3.9.1",
-        "gulp-iconfont": "^8.0.1",
-        "gulp-consolidate": "^0.2.0",
-        "del": "^2.2.2",
-        "run-sequence": "^1.2.2",
-        "lodash": "^4.17.4",
-        "async": "^2.1.5"
-    }
+  "name": "aviaticons",
+  "version": "0.1.5",
+  "description": "Aviaticons is a webfont dedicated to all aviation-lovers and those who develop applications or websites for those who love aviation.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julkuh/aviaticons"
+  },
+  "main": "index.js",
+  "author": "Julian Kuhlmann",
+  "license": "MIT License",
+  "devDependencies": {
+    "async": "^2.1.5",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-iconfont": "^8.0.1",
+    "lodash": "^4.17.4",
+    "run-sequence": "^1.2.2"
+  }
 }
