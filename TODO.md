@@ -9,3 +9,4 @@
 * Pilot Accessoires (Sungglasses, Headset, Kneeboard, etc.)
 * Navaid Symbols (VOR, NDB, Obstacles, etc.)
 * Airport Buildings (Tower, Runways, Taxi-Lights, Windsock, Gangway, etc.)
+* Airport Vehicles (Fire-Fighter, Baggage Train, Follow Me, Mobile Stair, etc.)
