@@ -47,6 +47,7 @@ gulp.task('BuildFont', function (done) {
                 
                 gulp.src('src/css/aviaticons.css')
                     .pipe(consolidate('lodash', replacementOptions))
+                    .pipe(cleanCSS())
                     .pipe(gulp.dest('dist/aviaticons/'));
 
                 gulp.src('src/demo.html')
